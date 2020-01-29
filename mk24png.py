@@ -7,7 +7,7 @@ def save_img(name):
 	global ipath
 	img= img.convert("RGB")#convert 32b RGBA to 24b RGB
 	img.save(os.path.join(ipath,"24b_"+name), compress_level=0)#save img with 24b_ prefix
-	
+	print("File: "+os.path.join(ipath,"24b_"+name)+" saved."
 for d in os.listdir(srcDir): ## for every dir in source dir
 	ipath=os.path.join(srcDir, d+"\\") #join source dir with dir into one path
 	for i in os.listdir(ipath): #for every file in ipath
