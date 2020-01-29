@@ -5,7 +5,7 @@ Script converting 16bit Greyscale and 32bit RGBA to 24bit RGB PNGs to be importe
 - Python 3.8
 - Pillow Image Library (pip install Pillow in cmd)
 ### Usage:
-- Run the script via cmd (i.e. C:\SubstancePNGtoQuixelPNG>mk24png.py)
+- Run the script via cmd (i.e. C:\SubstancePNGtoQuixelPNG>python mk24png.py)
 - Provide Source Directory containing the map directories (i.e. C:\Maps, containing directories 00,01,...)
 
 Keep in mind that the script converts only PNGs within the first level directories of the source directoy. Source\Dir01 Source\Dir02 etc.
